@@ -1,0 +1,23 @@
+.board {
+  background: whitesmoke;
+  padding: 25px;
+  margin:1% auto 0px auto;
+  // border:2px solid black;
+  border-radius: 14px;
+  // height:90vh;
+  // width:60vw;
+
+  &__body {
+    background: #ad9d8f;
+    // border:2px solid black;
+    width: max-content;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    // height:50vh;
+  }
+
+  &__row {
+    display: flex;
+  }
+}
